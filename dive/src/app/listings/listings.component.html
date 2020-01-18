@@ -10,7 +10,7 @@
   <div>Condtion: {{listing.state}}</div>
   <div>{{listing.product}}</div>
 
-  <div>
-    {{listing.like}}
+  <div (click)="onLike(listing)">
+    {{listing.like}} Likes
   </div>
   </div>

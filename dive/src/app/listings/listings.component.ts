@@ -20,4 +20,8 @@ export class ListingsComponent implements OnInit {
   ngOnInit() {
   }
 
+  onLike(listing: Listing) {
+    listing.like++;
+  }
+
 }

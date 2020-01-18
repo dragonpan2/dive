@@ -5,6 +5,7 @@ export class Listing {
   location: string;
   state: string;
   like: number;
+  gps: string;
 
   constructor(author: string, date: string, product: string, location: string, state: string) {
     this.author = author;
