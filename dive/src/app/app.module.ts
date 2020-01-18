@@ -12,7 +12,7 @@ import { ListingsComponent } from './listings/listings.component';
     ListingsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

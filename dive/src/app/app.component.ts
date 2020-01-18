@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { ListingComponent } from './listing/listing.component';
-import { Listing } from './listing/listing';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +8,13 @@ import { Listing } from './listing/listing';
 export class AppComponent {
   title = 'dive';
   username = 'Pan';
+  view = 'home';
 
   constructor() {
+  }
+
+  public changeView(view): void {
+    this.view = view;
   }
 
 
