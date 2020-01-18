@@ -9,6 +9,7 @@ import { Listing } from './listing/listing';
 })
 export class AppComponent {
   title = 'dive';
+  username = 'Pan';
 
   constructor() {
   }

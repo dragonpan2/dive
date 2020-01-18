@@ -4,6 +4,7 @@ export class Listing {
   product: string;
   location: string;
   state: string;
+  like: number;
 
   constructor(author: string, date: string, product: string, location: string, state: string) {
     this.author = author;
@@ -11,5 +12,6 @@ export class Listing {
     this.product = product;
     this.location = location;
     this.state = state;
+    this.like = 0;
   }
  }
