@@ -4,23 +4,32 @@
  font-weight: bold;
  font-size: 28px;
  font-family: Lucida, sans-serif;
+ color: gray;
 }
 
 .subtitle {
  font-size: 18px;
  font-family: Lucida, sans-serif;
+ color: gray;
 }
 
 .sections {
   width:110%;
+  border-bottom: 2px solid gray;
   
 }
 
 .section {
  margin-left: 1px;
- margin-right: 1px;
+ margin-right: 25px;
  font-family: Lucida, sans-serif;
  padding:8px;
+ color: gray;
+}
+
+.ecriture {
+  font-family: Lucida, sans-serif;
+  color: gray;
 }
 
 .wrapper {
