@@ -1,12 +1,14 @@
 <div class="wrapper">
 
 <div class="title">The Dumpster Divers' Field Guide </div>
-<p>
+<div class="card">
+<p class="sections">
   <span class="section" (click)="changeGuide('veggieFruit')">Vegetables and fruits</span>
   <span  class="section" (click)="changeGuide('meat')">Meats, eggs and seafoods</span>
   <span  class="section" (click)="changeGuide('dairy')">Dairy products </span>
   <span  class="section" (click)="changeGuide('baked')">Baked goods </span>
 </p>
+</div>
 
 <div *ngIf="currentGuide === 'veggieFruit'">
   <div class="subtitle">Vegetables</div>

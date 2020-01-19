@@ -1,3 +1,5 @@
+
+
 .title {
  font-weight: bold;
  font-size: 28px;
@@ -9,14 +11,24 @@
  font-family: Lucida, sans-serif;
 }
 
+.sections {
+  width:110%;
+  
+}
+
 .section {
  margin-left: 1px;
  margin-right: 1px;
  font-family: Lucida, sans-serif;
+ padding:8px;
 }
 
 .wrapper {
 
   margin: auto;
   width: 50%;
+}
+.section:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
 }
