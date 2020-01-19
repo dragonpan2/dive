@@ -1,6 +1,7 @@
 .cardlist {
   overflow: hidden;
-  height: 250px;
+  height: 300px;
+  width: 250px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: -webkit-box;
@@ -10,11 +11,12 @@
   margin-bottom: inherit;
   margin: 20px;
   font-family: Lucida, sans-serif;
+  flex-direction: column;
 }
 
 .fakeimg {
-  height:100%; 
-  width: 25%; 
+  height:75%; 
+  width: 100%; 
 }
 
 .cardlist-info {
@@ -24,9 +26,10 @@
 }
 
 .like {
-  text-align: right;
-  padding-top: 6%;
+  display: flex;
+  justify-content: space-between;
   padding-right: 15px;
+  padding-left: 15px;
   color: gray;
 }
 
@@ -35,30 +38,22 @@
 }
 
 .product {
-  font-size: 50px;
   letter-spacing: 1px;
   color: gray;
-  padding-top: 20px; ;
-}
-
-.author {
-  padding-right: 15px;
-  color: gray;
-  font-size: 12px;
-}
-
-.date {
-  padding-left: 15px;
-  color: gray;
-  font-size: 12px;
+  padding-top: 5px; ;
 }
 
 .location {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 5px;
   color: gray;
 }
 
 .condition {
   color: gray;
+}
+
+.away {
+  color: gray;
+  margin-left: 5px;
 }

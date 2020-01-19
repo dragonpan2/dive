@@ -3,18 +3,18 @@ import { Listing } from '../listing/listing';
 
 
 @Component({
-  selector: 'app-dive-feed',
+  selector: 'app-dive-feed5',
   templateUrl: './dive-feed.component.html',
   styleUrls: ['./dive-feed.component.css']
 })
-export class DiveFeedComponent implements OnInit {
+export class DiveFeedComponent5 implements OnInit {
   @Input() version: string;
   listings: Listing[] = [];
 
   constructor() {
-    const list: Listing = new Listing('Amba', '1997-06-24 2:42 PM', 'Rasberry', 'Mile ends', 'good', 'img1', 1.7);
+    const list: Listing = new Listing('Amba', '1997-06-24 2:42 PM', 'Anthocyanins', 'Farmer Market', 'good', 'img9', 3.8);
     this.listings.push(list);
-    this.listings.push(new Listing('Bloc', '2000-12-11 2:41 PM', 'Water Melon', 'Mont-Royal', 'fresh', 'img2', 5.1));
+    this.listings.push(new Listing('Bloc', '2000-12-11 2:41 PM', 'Soup', 'Cafe', 'fresh', 'img10', 6.4));
    }
 
   ngOnInit() {

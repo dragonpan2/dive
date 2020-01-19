@@ -6,6 +6,10 @@ import { ListingComponent } from './listing/listing.component';
 import { ListingsComponent } from './listings/listings.component';
 import { DiveFeedComponent } from './dive-feed/dive-feed.component';
 import { GuideComponent } from './guide/guide.component';
+import { DiveFeedComponent2 } from './dive-feed/dive-feed.component2';
+import { DiveFeedComponent3 } from './dive-feed/dive-feed.component3';
+import { DiveFeedComponent4 } from './dive-feed/dive-feed.component4';
+import { DiveFeedComponent5 } from './dive-feed/dive-feed.component5';
 
 @NgModule({
   declarations: [
@@ -14,6 +18,10 @@ import { GuideComponent } from './guide/guide.component';
     ListingsComponent,
     DiveFeedComponent,
     GuideComponent
+    DiveFeedComponent2,
+    DiveFeedComponent3,
+    DiveFeedComponent4,
+    DiveFeedComponent5
   ],
   imports: [
     BrowserModule,

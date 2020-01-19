@@ -11,9 +11,15 @@
 </ul>
 
 <div class="mainPage">
-  <app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
   <app-listings *ngIf="view === 'listing'"> </app-listings>
   <app-guide *ngIf="view === 'guide'"></app-guide>
+</div>
+<div *ngIf="view === 'home'" class="flex-container">
+  <app-dive-feed  > </app-dive-feed>
+  <app-dive-feed2  > </app-dive-feed2>
+  <app-dive-feed3 > </app-dive-feed3>
+  <app-dive-feed4 > </app-dive-feed4>
+  <app-dive-feed5  > </app-dive-feed5>
 </div>
 
 <div class="footer">
