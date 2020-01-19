@@ -1,0 +1,98 @@
+<div class="wrapper">
+
+<div class="title">The Dumpster Divers' Field Guide </div>
+<p>
+  <span class="section" (click)="changeGuide('veggieFruit')">Vegetables and fruits</span>
+  <span  class="section" (click)="changeGuide('meat')">Meats, eggs and seafoods</span>
+  <span  class="section" (click)="changeGuide('dairy')">Dairy products </span>
+  <span  class="section" (click)="changeGuide('baked')">Baked goods </span>
+</p>
+
+<div *ngIf="currentGuide === 'veggieFruit'">
+  <div class="subtitle">Vegetables</div>
+  <p>When most green vegetables begin to go bad, they start to lose their color or turn yellow. This is often the case
+    with broccoli and kale, for example, but may apply to other fresh veggies as well.
+
+    Still, some vegetables, such as celery or onion, can often be salvageable. Make sure you trim off the discolored
+    portion and then try soaking it for 10-15 minutes in ice water to refresh it, the Greater Chicago Food Depository
+    suggests.</p>
+  <div class="subtitle">Fruit</div>
+  <p>
+    If your fruit has become mushy or grainy, it's probably a sign that you shouldn't eat it, according to the Greater
+    Chicago Food Depository. Other warning signs that a fruit has gone bad include extreme discoloring, foul odors, or
+    wrinkly skin that's peeling away.
+  </p>
+</div>
+
+<div *ngIf="currentGuide === 'meat'">
+  <div class="subtitle">Eggs</div>
+  <p>
+    If an egg is bad, it floats in fresh, cold water. If an egg is good, it sinks.
+
+    You may have dismissed this tip as nonsense, but there's some solid science behind it, according to the US
+    Department of Agriculture.
+
+    While egg shells seem solid, they're actually slightly porous. As an egg ages, a sac of air begins to form inside
+    around the inside of the shell. The older it is, the more air becomes trapped inside. Once so much air is inside the
+    egg that it floats, chances are it's gone bad. (Of course, an old egg can still be OK to eat, but better safe than
+    sorry!) Fresh eggs, on the other hand, will sink to the bottom of a bowl of water.
+  </p>
+  <div class="subtitle">Fresh meat</div>
+  <p>Just because uncooked meat has changed color doesn't mean it's gone bad, as the USDA points out. But if your meat
+    has a foul odor, appears slimy, or has a sticky or tacky feel, it's best to toss it.</p>
+  <div class="subtitle">Deli</div>
+  <p>If sliced deli meat like turkey, ham, or salami has a foul odor, throw it out; the smell typically indicates
+    bacteria is growing inside, according to the folks at EatByDate. Also toss it if it has become slimy or hard, or if
+    you notice any other change in texture. If you buy your meat fresh from the deli, make sure to eat it within three
+    days.</p>
+
+  <div class="subtitle">Fish</div>
+  <p>Fish that's spoiled will typically have a slimy flesh with a thick, slippery coating. It'll also start to have an
+    intensified fishy smell that is stronger than it was when you first purchased it. Keep in mind that fresh fish
+    should be eaten within 36 hours of the time you bought it.</p>
+</div>
+
+<div *ngIf="currentGuide === 'dairy'">
+  <div class="subtitle">Cheese</div>
+  <p>When it comes to cheese, perishability has a lot to do with the amount of moisture it contains.
+
+    Soft cheeses tend to spoil more quickly than hard or aged cheeses; similarly, if you spot mold in a soft cheese, you
+    should toss the entire container. If you spot mold on a hard cheese, it's generally safe to cut off the moldy part
+    and eat the rest, since the spores likely will not have spread throughout the cheese.
+
+    Another sign that a cheese has gone bad is a smell or taste of spoiled, sour milk. Fresh cheeses should not smell,
+    chef Nora Singley writes in her "Cheesemonger" blog for the cooking site The Kitchn.
+
+  </p>
+  <div class="subtitle">Milk</div>
+  <p>The easiest way to tell if milk has spoiled is by checking for changes in texture or consistency. Chunky or lumpy
+    milk is almost assuredly bad, but you can also look out for things like discoloration or an unclean, sour smell,
+    which happens when lactic acid in the milk starts producing bacteria.</p>
+  <div class="subtitle">Yogurt</div>
+  <p>Yogurt can last a surprisingly long time (about one to three weeks) when kept sealed, thanks to its live bacterial
+    cultures, which act as a preservative.
+
+    Once those cultures die, however, mold can begin to form. Look for a larger-than-normal amount of liquid on the
+    surface (don't worry, Greek yogurt is especially prone to some, but if there's more than usual that's a warning
+    sign), a curdling texture near the bottom, and any sign of mold. These indicate the entire product has probably gone
+    bad, say the folks at StillTasty.</p>
+</div>
+
+<div *ngIf="currentGuide === 'baked'">
+  <div class="subtitle">Bread</div>
+  <p>
+    If you spot mold on one slice of bread, it's not safe to eat another slice — even if there's no visible mold on the
+    rest of the loaf. Toss it.
+
+    Because bread is porous, mold can spread easily throughout the loaf, so while a piece might look safe to eat, it
+    could contain tiny mold spores.
+
+    If a bread has become hard and dry but has no mold, it can probably still be used as bread crumbs or croutons, since
+    mold needs moisture to grow.
+  </p>
+</div>
+
+<div>Source: Business Insider, Expiration dates are bogus</div>
+
+
+</div>

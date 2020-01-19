@@ -1,0 +1,19 @@
+.title {
+ font-weight: bold;
+ font-size: 28px;
+}
+
+.subtitle {
+ font-size: 18px;
+}
+
+.section {
+ margin-left: 1px;
+ margin-right: 1px;
+}
+
+.wrapper {
+
+  margin: auto;
+  width: 50%;
+}

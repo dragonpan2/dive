@@ -7,11 +7,13 @@
   <li><a href="#contact">Contact</a></li>
   <li><a href="#" (click)="changeView('listing')">Listings </a></li>
   <li><a href="#" (click)="changeView('home')">Dive Feed</a></li>
+  <li><a href="#" (click)="changeView('guide')">Field Guide</a></li>
 </ul>
 
 <div class="mainPage">
   <app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
   <app-listings *ngIf="view === 'listing'"> </app-listings>
+  <app-guide *ngIf="view === 'guide'"></app-guide>
 </div>
 
 <div class="footer">
