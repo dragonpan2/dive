@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ListingComponent } from './listing/listing.component';
 import { ListingsComponent } from './listings/listings.component';
+import { DiveFeedComponent } from './dive-feed/dive-feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListingComponent,
-    ListingsComponent
+    ListingsComponent,
+    DiveFeedComponent
   ],
   imports: [
     BrowserModule,
