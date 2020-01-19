@@ -1,0 +1,29 @@
+.cardlist {
+    overflow: hidden;
+    height: 250px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: inherit;
+    
+}
+
+.cardlist-info {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.like {
+    text-align: right;
+    padding-top: 23%;
+    padding-right: 10px;
+
+}
+
+.author-date {
+    display: inline-flex;
+}
