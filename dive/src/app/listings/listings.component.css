@@ -8,7 +8,13 @@
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: inherit;
-    
+    margin: 20px;
+    font-family: Lucida, sans-serif;
+}
+
+.fakeimg {
+    height:100%; 
+    width: 25%; 
 }
 
 .cardlist-info {
@@ -19,11 +25,40 @@
 
 .like {
     text-align: right;
-    padding-top: 23%;
-    padding-right: 10px;
-
+    padding-top: 6%;
+    padding-right: 15px;
+    color: gray;
 }
 
 .author-date {
     display: inline-flex;
+}
+
+.product {
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: gray;
+    padding-top: 20px; ;
+}
+
+.author {
+    padding-right: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.date {
+    padding-left: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.location {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: gray;
+}
+
+.condition {
+    color: gray;
 }

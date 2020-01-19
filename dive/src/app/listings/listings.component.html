@@ -1,31 +1,21 @@
-<div> Dive Feed </div>
-
 <div *ngFor="let listing of listings">
   <div class="cardlist">
-    
-    <div _ngcontent-dja-c0="" class="fakeimg" style="height:215px; width: 325px; background-color: red;">Image</div>
+    <img class="fakeimg" src="assets/{{listing.img}}.jpg">
     <div class="cardlist-info">
-      
       <div class="product-author-date">
-
-          <div class="product">{{listing.product}}</div>
-        
-          <div class="author-date">
-               
-            <div class="author">  By {{listing.author}} </div>
-            <div class="date">Posted on {{listing.date}}</div>
-          </div>  
-
-          
+        <div class="product">{{listing.product}}</div>
+        <div class="author-date">
+          <div class="author">  By {{listing.author}} </div>
+          &bull;
+          <div class="date">Posted on {{listing.date}}</div>
+        </div>  
       </div>  
-          <div class="location">at {{listing.location}}</div>
-
-          <div class="condition">Condtion: {{listing.state}}</div>
-          
-          <div class="like">
-            <div (click)="onLike(listing)">
-              {{listing.like}} Likes
-            </div>
-          </div>
+      <div class="location">at {{listing.location}}</div>
+      <div class="condition">Condtion: {{listing.state}}</div>
+      <div class="like">
+        <div (click)="onLike(listing)">
+          {{listing.like}} Likes
+        </div>
+      </div>
   </div>
 </div>

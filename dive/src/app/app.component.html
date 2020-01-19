@@ -9,9 +9,10 @@
   <li><a href="#" (click)="changeView('home')">Dive Feed</a></li>
 </ul>
 
-<app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
-<app-listings *ngIf="view === 'listing'"> </app-listings>
-
+<div class="mainPage">
+  <app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
+  <app-listings *ngIf="view === 'listing'"> </app-listings>
+</div>
 
 <div class="footer">
   <h2>Footer</h2>
