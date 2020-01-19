@@ -17,7 +17,7 @@ import { DiveFeedComponent5 } from './dive-feed/dive-feed.component5';
     ListingComponent,
     ListingsComponent,
     DiveFeedComponent,
-    GuideComponent
+    GuideComponent,
     DiveFeedComponent2,
     DiveFeedComponent3,
     DiveFeedComponent4,
