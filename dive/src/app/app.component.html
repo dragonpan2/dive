@@ -4,15 +4,16 @@
   </div>
   <img class="logo" src="assets/logo.jpg">
   <li><a href="#about">About</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><a href="#contact" (click)="changeView('maps')">Maps</a></li>
   <li><a href="#" (click)="changeView('guide')">Field Guide</a></li>
-  <li><a href="#" (click)="changeView('listing')">Listings </a></li>
-  <li><a href="#" (click)="changeView('home')">Dive Feed</a></li>
+  <li><a href="#" (click)="changeView('listing')">Favorites </a></li>
+  <li><a href="#" (click)="changeView('home')">Listings</a></li>
 </ul>
 
 <div class="mainPage">
   <app-listings *ngIf="view === 'listing'"> </app-listings>
   <app-guide *ngIf="view === 'guide'"></app-guide>
+  <app-map *ngIf="view === 'maps'"></app-map>
 </div>
 <div *ngIf="view === 'home'" class="flex-container">
   <app-dive-feed  > </app-dive-feed>
@@ -23,5 +24,5 @@
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  @ Team Action Intelligence
 </div>

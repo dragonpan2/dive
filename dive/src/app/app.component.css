@@ -71,3 +71,10 @@ ul {
   line-height: 75px;
   font-size: 30px;
 }
+
+.footer {
+  font-family: Lucida, sans-serif;
+  text-align: center;
+  color: gray;
+  background-color: white;
+}

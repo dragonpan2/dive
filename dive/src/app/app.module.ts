@@ -10,6 +10,7 @@ import { DiveFeedComponent2 } from './dive-feed/dive-feed.component2';
 import { DiveFeedComponent3 } from './dive-feed/dive-feed.component3';
 import { DiveFeedComponent4 } from './dive-feed/dive-feed.component4';
 import { DiveFeedComponent5 } from './dive-feed/dive-feed.component5';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DiveFeedComponent5 } from './dive-feed/dive-feed.component5';
     DiveFeedComponent2,
     DiveFeedComponent3,
     DiveFeedComponent4,
-    DiveFeedComponent5
+    DiveFeedComponent5,
+    MapComponent
   ],
   imports: [
     BrowserModule,
