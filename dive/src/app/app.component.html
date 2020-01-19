@@ -3,15 +3,15 @@
     DIVE
   </div>
   <img class="logo" src="assets/logo.jpg">
-  <li><a href="#" (click)="changeView('home')">Home</a></li>
-  <li><a href="#" (click)="changeView('listing')">Listings </a></li>
-  <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#" (click)="changeView('listing')">Listings </a></li>
+  <li><a href="#" (click)="changeView('home')">Dive Feed</a></li>
 </ul>
 
+<app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
 <app-listings *ngIf="view === 'listing'"> </app-listings>
 
-<app-dive-feed *ngIf="view === 'home'"> </app-dive-feed>
 
 <div class="footer">
   <h2>Footer</h2>
