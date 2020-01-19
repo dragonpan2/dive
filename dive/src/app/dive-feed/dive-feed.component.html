@@ -10,8 +10,9 @@
           <div class="away">
             {{listing.km}} km
           </div>
-          <div (click)="onLike(listing)">
-              {{listing.like}} Likes
+          <div (click)="onLike(listing)" class="essaie">
+              <img class="thumbs" src="assets/thumbsup.png">
+              {{listing.like}} 
           </div>
         </div>
     </div>
