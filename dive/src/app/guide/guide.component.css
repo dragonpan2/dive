@@ -17,6 +17,9 @@
   width:110%;
   border-bottom: 2px solid gray;
   
+  
+  
+  
 }
 
 .section {
@@ -24,6 +27,7 @@
  margin-right: 25px;
  font-family: Lucida, sans-serif;
  padding:8px;
+ background-color: whitesmoke;
  color: gray;
 }
 
@@ -40,4 +44,7 @@
 .section:hover {
   cursor: pointer;
   background-color: whitesmoke;
+  border-bottom: 2px solid black;
 }
+
+
